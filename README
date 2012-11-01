@@ -1,0 +1,8 @@
+Airwolf - an HTML5 GUI for the AR-Drone
+
+MiniNodeCopter SF
+
+This app is based heavily on the work of
+https://github.com/remy/drone-record
+and
+https://github.com/bkw/node-dronestream
