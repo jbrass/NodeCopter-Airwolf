@@ -1,11 +1,8 @@
 {
-  "name": "airwolf",
-  "version": "0.0.0",
-  "description": "ERROR: No README.md file found!",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "NodeCopter-Airwolf",
+  "version": "0.0.1",
+  "description": "a hacky HTML5 Dashboard for the AR-Drone2",
+  "main": "server.js",
   "dependencies": {
     "ar-drone": "*",
     "connect": "1.8.6",
@@ -14,7 +11,7 @@
     "ar-drone": "*",
     "buffy": "0.0.4"
   },
-  "repository": "",
-  "author": "",
+  "repository": "git@github.com:jbrass/NodeCopter-Airwolf.git",
+  "author": "Joel Brass",
   "license": "BSD"
 }
