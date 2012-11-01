@@ -1,0 +1,60 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.active {
+  border: 1px solid red;
+}
+
+#key-a {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+#key-d {
+  position: absolute;
+  top: 200px;
+  left: 600px;
+}
+
+#key-w {
+  position: absolute;
+  top: 175px;
+  left: 550px;
+}
+
+#key-s {
+  position: absolute;
+  top: 225px;
+  left: 550px;
+}
+
+#key-j {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+
+#key-l {
+  position: absolute;
+  top: 200px;
+  left: 900px;
+}
+
+#key-i {
+  position: absolute;
+  top: 175px;
+  left: 850px;
+}
+
+#key-k {
+  position: absolute;
+  top: 225px;
+  left: 850px;
+}

@@ -1,4 +1,4 @@
-Copyright (c) 2012 Bernhard K. Weisshuhn (bkw@codingforce.com) and contributors
+Copyright (c) 2012 Joel E. Brass (jbrass@gmail.com) and contributors
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -18,10 +18,12 @@ Copyright (c) 2012 Bernhard K. Weisshuhn (bkw@codingforce.com) and contributors
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
 
-This code includes files from the Boradway.js project:
-https://github.com/mbebenita/Broadway .
+This code includes files from the following projects:
 
-License and author information in included in the directory
-public/js/vendor/broadway.
+https://github.com/mbebenita/Broadway - License and author information in included in the directory public/js/vendor/broadway.
+https://github.com/remy/drone-record
+https://github.com/bkw/node-dronestream
+https://github.com/rheh/HTML5-canvas-projects
+
 
 

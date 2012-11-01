@@ -1,0 +1,65 @@
+			#box {
+				width:200px;
+				height:200px;
+				border:1px solid black;
+				border-radius:100px;
+				margin:50px 0 0 50px;
+				position:relative;
+			}
+			#joystick {
+				width:18px;
+				height:18px;
+				border:1px solid black;
+				border-radius:10px;
+				position:relative;
+				top:94px;
+				left:94px;
+			}
+			
+			.arrow-up {
+				width: 0; 
+				height: 0; 
+				border-left: 20px solid transparent;
+				border-right: 20px solid transparent;
+				border-bottom: 20px solid black;
+				position:absolute;
+				top:-20px;
+				left:50%;
+				margin-left:-20px;
+			}
+
+			.arrow-down {
+				width: 0; 
+				height: 0; 
+				border-left:20px solid transparent;
+				border-right: 20px solid transparent;
+				border-top: 20px solid black;
+				position:absolute;
+				bottom:-20px;
+				left:50%;
+				margin-left:-20px;
+			}
+
+			.arrow-right {
+				width: 0; 
+				height: 0; 
+				border-top: 20px solid transparent;
+				border-bottom: 20px solid transparent;
+				border-left: 20px solid black;
+				position:absolute;
+				right:-20px;
+				top:50%;
+				margin-top:-20px;
+			}
+
+			.arrow-left {
+				width: 0; 
+				height: 0; 
+				border-top: 20px solid transparent;
+				border-bottom: 20px solid transparent; 
+				border-right:20px solid black;
+				position:absolute;
+				left:-20px;
+				top:50%;
+				margin-top:-20px;
+			}

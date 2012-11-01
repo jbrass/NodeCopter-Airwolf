@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>BrowserControl</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/controller.css">
+
+    
+    <script type="text/javascript" src="/js/jquery.js"></script>
+  	<script type="text/javascript" src="/js/keypress.js"></script>
+  	<script type="text/javascript" src="/js/control.js"></script>
+  	<script type="text/javascript" src="/js/socket.io.js"></script>
+  	<script type="text/javascript" src="/js/main.js"></script>
+  	
+  	<script type="text/javascript" src="/js/vendor/HTML5-canvas-projects/compass/compass.js"></script>
+  	
+
+
+
+  </head>
+  <body>
+    <div class="header-container">
+      <header class="wrapper clearfix">
+        <nav>
+        </nav>
+      </header>
+    </div>
+    <div class="main-container">
+      <div class="main wrapper clearfix">
+        <div id="dronestream" width="640" height="360"></div>
+        
+        
+        <form id="controls">
+<textarea id="commands" placeholder="Paste your drone commands to replay"></textarea>
+<input type="submit" value="Run">
+</form>
+
+<div id="keycontrols">
+  <div id="key-a">
+    &larr;
+  </div>
+  <div id="key-w">
+    &uarr;
+  </div>
+  <div id="key-s">
+    &darr;
+  </div>
+  <div id="key-d">
+    &rarr;
+  </div>
+
+  <div id="key-j">
+    &#8634;
+  </div>
+  <div id="key-i">
+    &#8613;
+  </div>
+  <div id="key-k">
+    &#8615;
+  </div>
+  <div id="key-l">
+    &#8635;
+  </div>
+</div>
+<table>
+<tr>
+<td valign="top">        Altitude:<input type="text" id="altitudeMeters">
+        <br>
+        batteryPercentage:<input type="text" id="batteryPercentage">
+        <br>
+        clockwiseDegrees:<input type="text" id="clockwiseDegrees">
+        <br>
+        controlState:<input type="text" id="controlState">
+        <br>
+        flyState:<input type="text" id="flyState">
+        <br>
+        frontBackDegrees:<input type="text" id="frontBackDegrees">
+        <br>
+        leftRightDegrees:<input type="text" id="leftRightDegrees">
+        <br>
+        </td>
+<td valign="top">
+<canvas id="compass" width="200" height="200"></canvas>
+      
+</td>
+</tr>
+
+</table>
+        
+        </div>
+      <div class="footer-container">
+        <footer class="wrapper">
+        </footer>
+      </div>
+    </div>
+
+  <script type="text/javascript" src="/js/vendor/broadway/sylvester.js"></script>
+  <script type="text/javascript" src="/js/vendor/broadway/glUtils.js"></script>
+  <script type="text/javascript" src="/js/vendor/broadway/util.js"></script>
+  <script type="text/javascript" src="/js/vendor/broadway/avc-codec.js"></script>
+  <script type="text/javascript" src="/js/vendor/broadway/avc.js"></script>
+  <script type="text/javascript" src="/js/vendor/broadway/canvas.js"></script>
+  <script type="text/javascript" src="/js/nodecopter-stream.js"></script>
+
+    <script>
+      var copterStream = new NodecopterStream(document.querySelector('#dronestream'));
+      
+    </script>
+  </body>
+</html>
